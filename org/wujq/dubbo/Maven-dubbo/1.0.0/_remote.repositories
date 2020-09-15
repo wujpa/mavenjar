@@ -1,0 +1,5 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Wed Aug 05 17:25:35 CST 2020
+Maven-dubbo-1.0.0.jar>=
+Maven-dubbo-1.0.0.pom>=
+Maven-dubbo-1.0.0.war>=

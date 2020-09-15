@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>de.siegmar</groupId>
+  <artifactId>logback-gelf</artifactId>
+  <version>2.0.0</version>
+  <name>Logback GELF</name>
+  <description>Logback appender for sending GELF messages with zero additional dependencies.</description>
+  <url>https://github.com/osiegmar/logback-gelf</url>
+  <licenses>
+    <license>
+      <name>GNU Lesser General Public License version 2.1</name>
+      <url>http://www.gnu.org/licenses/old-licenses/lgpl-2.1.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>osiegmar</id>
+      <name>Oliver Siegmar</name>
+      <email>oliver@siegmar.de</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:https://github.com/osiegmar/logback-gelf.git</connection>
+    <url>https://github.com/osiegmar/logback-gelf</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>ch.qos.logback</groupId>
+      <artifactId>logback-classic</artifactId>
+      <version>1.2.3</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>
